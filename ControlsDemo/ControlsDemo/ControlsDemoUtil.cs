@@ -6,6 +6,11 @@ namespace ControlsDemo
 {
     public class ControlsDemoUtil
     {
-
+        [CommandMethod("Demo")]
+        public void Demo()
+        {
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
+        }
     }
 }
